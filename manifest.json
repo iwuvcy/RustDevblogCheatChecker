@@ -7,6 +7,6 @@
   "database": {
     "latest_version": "1.0.0",
     "download_url": "https://cdn.jsdelivr.net/gh/iwuvcy/RustDevblogCheatChecker@main/List/list.txt",
-    "sha256": "7f729a24a549e8f54cefc3e5fb8f75be1d1a5381bb14e3735f4c04f4576f3b38"
+    "sha256": "916a7a56c8295f89bb5914699e946e42b7b7b8747f0272c2e23d7064fac22623"
   }
 }
