@@ -78,7 +78,7 @@ RustDevblogCheatChecker/
 3. Place `es.exe` inside the `Utils` directory.
 4. Put the required size and SHA-256 pairs in `List/list.txt`.
 5. Run the appropriate launcher, preferably as Administrator:
-   - `Run-SSD.bat` — 8 hashing threads.
+   - `Run-SSD.bat` — 12 hashing threads.
    - `Run-HDD.bat` — 2 hashing threads.
 
 Manual launch:
@@ -127,7 +127,7 @@ More threads are not always faster. Excessive parallel reads can reduce HDD perf
 ## Security and privacy
 
 - File names, contents, and hashes are processed locally.
-- Only `manifest.json` and database updates are requested from jsDelivr.
+- Only `manifest.json` and database updates are requested from GitHub.
 - A downloaded database is installed only after its SHA-256 matches the value in `manifest.json`.
 - Use the scanner only on systems and files you are authorized to inspect.
 
@@ -198,7 +198,7 @@ RustDevblogCheatChecker/
 2. Убедись, что все необходимые диски включены в настройках индексирования Everything.
 3. Заполни `List/list.txt` парами размера и SHA-256.
 4. Запусти подходящий BAT-файл, желательно от имени администратора:
-   - `Run-SSD.bat` — 8 потоков хеширования.
+   - `Run-SSD.bat` — 12 потоков хеширования.
    - `Run-HDD.bat` — 2 потока хеширования.
 
 Ручной запуск:
@@ -247,7 +247,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass `
 ## Безопасность и конфиденциальность
 
 - Имена, содержимое и хеши файлов обрабатываются локально.
-- Через jsDelivr запрашиваются только `manifest.json` и обновления базы.
+- Через GitHub запрашиваются только `manifest.json` и обновления базы.
 - Загруженная база устанавливается только после успешной проверки SHA-256.
 - Используй сканер только на компьютерах и для файлов, которые имеешь право проверять.
 
