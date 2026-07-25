@@ -1,3 +1,4 @@
+
 [CmdletBinding()]
 param(
     [ValidateRange(1, 64)]
@@ -25,7 +26,8 @@ function Stop-WithError([string]$Message) {
 
 function Get-TextFromWeb([string]$Url) {
     [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
-    return [string](Invoke-RestMethod -Uri $Url -Method Get -TimeoutSec 5 -UseBasicParsing)
+    $response = Invoke-WebRequest -Uri $Url -Method Get -TimeoutSec 5 -UseBasicParsing
+    return [string]$response.Content
 }
 
 function Get-FileSha256([string]$Path) {
