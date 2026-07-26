@@ -5,8 +5,8 @@
     "download_url": "https://github.com/iwuvcy/RustDevblogCheatChecker/releases/latest"
   },
   "database": {
-    "latest_version": "1.0.1",
+    "latest_version": "1.0.2",
     "download_url": "https://raw.githubusercontent.com/iwuvcy/RustDevblogCheatChecker/main/List/list.txt",
-    "sha256": "916a7a56c8295f89bb5914699e946e42b7b7b8747f0272c2e23d7064fac22623"
+    "sha256": "cc4bf6f776e5be8aa43a83895a9d180bd5ece1345749eedeeec285a21ce3ce83"
   }
 }
