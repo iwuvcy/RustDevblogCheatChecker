@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "program": {
-    "latest_version": "1.0.2",
+    "latest_version": "1.1.0",
     "download_url": "https://github.com/iwuvcy/RustDevblogCheatChecker/releases/latest"
   },
   "database": {
-    "latest_version": "1.0.2",
+    "latest_version": "1.0.3",
     "download_url": "https://raw.githubusercontent.com/iwuvcy/RustDevblogCheatChecker/main/List/list.txt",
-    "sha256": "51e50075587cd3119f3f651f8f5c02a082561197dd8d987b8119263b659ce5f2"
+    "sha256": "076dc51a70eb6f58258ff9beccbf1e805cf44c8d7e9519bbc21363982ac9e1a0"
   }
 }
